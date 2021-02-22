@@ -6,10 +6,9 @@ namespace GradeBook.GradeBooks
 {
     public class StandardGradeBook : BaseGradeBook
     {
-        public StandardGradeBook(string name) : base(name)
+        public StandardGradeBook(string name, bool isWeighted) : base(name, isWeighted)
         {
-            Type = Enums.GradeBookType.Standard;
-            /// A comment so it saves a new version maybe?
+            Type = Enums.GradeBookType.Standard;             
         }
     }
 }
